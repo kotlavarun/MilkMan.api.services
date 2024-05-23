@@ -1,0 +1,59 @@
+2024-04-02T17:00:35.871+05:30  INFO 21036 --- [milkman] [restartedMain] c.m.MilkmanApplication                   : Starting MilkmanApplication using Java 21 with PID 21036 (C:\Users\sratnapuram\Downloads\milkman (1)\milkman\target\classes started by sratnapuram in C:\Users\sratnapuram\Downloads\milkman (1)\milkman)
+2024-04-02T17:00:35.882+05:30 DEBUG 21036 --- [milkman] [restartedMain] c.m.MilkmanApplication                   : Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-04-02T17:00:35.883+05:30  INFO 21036 --- [milkman] [restartedMain] c.m.MilkmanApplication                   : No active profile set, falling back to 1 default profile: "default"
+2024-04-02T17:00:35.937+05:30  INFO 21036 --- [milkman] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-02T17:00:35.937+05:30  INFO 21036 --- [milkman] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-02T17:00:36.898+05:30  INFO 21036 --- [milkman] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-02T17:00:36.981+05:30  INFO 21036 --- [milkman] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 6 JPA repository interfaces.
+2024-04-02T17:00:37.709+05:30  INFO 21036 --- [milkman] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-04-02T17:00:37.730+05:30  INFO 21036 --- [milkman] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-04-02T17:00:37.731+05:30  INFO 21036 --- [milkman] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02T17:00:37.800+05:30  INFO 21036 --- [milkman] [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-04-02T17:00:37.801+05:30  INFO 21036 --- [milkman] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1862 ms
+2024-04-02T17:00:38.018+05:30  INFO 21036 --- [milkman] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-04-02T17:00:38.461+05:30  INFO 21036 --- [milkman] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ae0bd01
+2024-04-02T17:00:38.463+05:30  INFO 21036 --- [milkman] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2024-04-02T17:00:38.514+05:30  INFO 21036 --- [milkman] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-02T17:00:38.607+05:30  INFO 21036 --- [milkman] [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-02T17:00:38.655+05:30  INFO 21036 --- [milkman] [restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-04-02T17:00:38.989+05:30  INFO 21036 --- [milkman] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-02T17:00:39.993+05:30  INFO 21036 --- [milkman] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-02T17:00:39.997+05:30  INFO 21036 --- [milkman] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-02T17:00:40.345+05:30  INFO 21036 --- [milkman] [restartedMain] o.s.d.j.r.q.QueryEnhancerFactory         : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-02T17:00:40.860+05:30  WARN 21036 --- [milkman] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-02T17:00:41.427+05:30  INFO 21036 --- [milkman] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-02T17:00:41.475+05:30  INFO 21036 --- [milkman] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path ''
+2024-04-02T17:00:41.489+05:30  INFO 21036 --- [milkman] [restartedMain] c.m.MilkmanApplication                   : Started MilkmanApplication in 6.202 seconds (process running for 7.421)
+2024-04-02T17:43:45.627+05:30  INFO 21036 --- [milkman] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-02T17:43:45.634+05:30  INFO 21036 --- [milkman] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2024-04-02T17:43:45.645+05:30  INFO 21036 --- [milkman] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2024-04-02T17:43:50.976+05:30  INFO 7352 --- [milkman] [restartedMain] c.m.MilkmanApplication                   : Starting MilkmanApplication using Java 21 with PID 7352 (C:\Users\sratnapuram\Downloads\milkman (1)\milkman\target\classes started by sratnapuram in C:\Users\sratnapuram\Downloads\milkman (1)\milkman)
+2024-04-02T17:43:50.986+05:30 DEBUG 7352 --- [milkman] [restartedMain] c.m.MilkmanApplication                   : Running with Spring Boot v3.2.3, Spring v6.1.4
+2024-04-02T17:43:50.989+05:30  INFO 7352 --- [milkman] [restartedMain] c.m.MilkmanApplication                   : No active profile set, falling back to 1 default profile: "default"
+2024-04-02T17:43:51.034+05:30  INFO 7352 --- [milkman] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-02T17:43:51.035+05:30  INFO 7352 --- [milkman] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-02T17:43:51.896+05:30  INFO 7352 --- [milkman] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-02T17:43:51.973+05:30  INFO 7352 --- [milkman] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 6 JPA repository interfaces.
+2024-04-02T17:43:52.637+05:30  INFO 7352 --- [milkman] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2024-04-02T17:43:52.654+05:30  INFO 7352 --- [milkman] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-04-02T17:43:52.655+05:30  INFO 7352 --- [milkman] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-02T17:43:52.720+05:30  INFO 7352 --- [milkman] [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-04-02T17:43:52.722+05:30  INFO 7352 --- [milkman] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1685 ms
+2024-04-02T17:43:52.915+05:30  INFO 7352 --- [milkman] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2024-04-02T17:43:53.294+05:30  INFO 7352 --- [milkman] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3709243a
+2024-04-02T17:43:53.296+05:30  INFO 7352 --- [milkman] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2024-04-02T17:43:53.363+05:30  INFO 7352 --- [milkman] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-02T17:43:53.458+05:30  INFO 7352 --- [milkman] [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-02T17:43:53.534+05:30  INFO 7352 --- [milkman] [restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+2024-04-02T17:43:53.836+05:30  INFO 7352 --- [milkman] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-02T17:43:54.755+05:30  INFO 7352 --- [milkman] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-02T17:43:54.758+05:30  INFO 7352 --- [milkman] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-02T17:43:55.068+05:30  INFO 7352 --- [milkman] [restartedMain] o.s.d.j.r.q.QueryEnhancerFactory         : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-02T17:43:55.621+05:30  WARN 7352 --- [milkman] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-02T17:43:56.216+05:30  INFO 7352 --- [milkman] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-02T17:43:56.265+05:30  INFO 7352 --- [milkman] [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path ''
+2024-04-02T17:43:56.278+05:30  INFO 7352 --- [milkman] [restartedMain] c.m.MilkmanApplication                   : Started MilkmanApplication in 5.852 seconds (process running for 6.905)
+2024-04-02T17:48:50.288+05:30  INFO 7352 --- [milkman] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 40 class path changes (0 additions, 40 deletions, 0 modifications)
+2024-04-02T17:48:50.341+05:30  INFO 7352 --- [milkman] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-02T17:48:50.360+05:30  INFO 7352 --- [milkman] [Thread-5] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2024-04-02T17:48:50.414+05:30  INFO 7352 --- [milkman] [Thread-5] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
